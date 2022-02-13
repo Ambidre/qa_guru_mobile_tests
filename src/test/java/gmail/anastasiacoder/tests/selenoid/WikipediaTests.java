@@ -8,13 +8,17 @@ import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
 import io.appium.java_client.MobileBy;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Owner("Ambidre")
+@Story("Wikipedia")
+@Tag("Selenoid")
 public class WikipediaTests extends SelenoidTestBase {
 
-    @Tag("Selenoid")
     @Test
     @DisplayName("Selenoid. Проверка результата поиска по значению 'BrowserStack'")
     void searchBrowserStackInWikipedia() {

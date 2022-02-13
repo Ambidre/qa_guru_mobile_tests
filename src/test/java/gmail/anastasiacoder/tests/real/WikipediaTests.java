@@ -7,14 +7,18 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
 import io.appium.java_client.MobileBy;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Owner("Ambidre")
+@Story("Wikipedia")
+@Tag("Real")
 public class WikipediaTests extends RealTestBase {
 
     @Test
-    @Tag("Real")
     @DisplayName("Проверка страниц getting started")
     void gettingStartedWikipediaTest() {
         back();

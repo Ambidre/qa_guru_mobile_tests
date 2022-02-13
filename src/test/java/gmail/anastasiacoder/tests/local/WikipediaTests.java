@@ -1,6 +1,8 @@
 package gmail.anastasiacoder.tests.local;
 
 import io.appium.java_client.MobileBy;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -9,10 +11,12 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
+@Owner("Ambidre")
+@Story("Wikipedia")
+@Tag("Local")
 public class WikipediaTests extends LocalTestBase {
 
   @Test
-  @Tag("Local")
   @DisplayName("Проверка страниц getting started")
   void gettingStartedWikipediaTest() {
     back();
