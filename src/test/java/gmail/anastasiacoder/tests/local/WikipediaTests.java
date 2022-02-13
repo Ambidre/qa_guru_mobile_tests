@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
-@Layer("Mobile")
+@Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Feature("Local")

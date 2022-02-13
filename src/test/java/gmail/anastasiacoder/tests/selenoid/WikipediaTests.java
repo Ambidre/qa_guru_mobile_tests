@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
-@Layer("Mobile")
+@Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Tags({@Tag("Selenoid"),@Tag("UI")})
