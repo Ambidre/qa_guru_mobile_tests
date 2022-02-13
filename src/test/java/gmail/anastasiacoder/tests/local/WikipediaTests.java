@@ -6,17 +6,18 @@ import io.appium.java_client.MobileBy;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
-@Layer("UI")
+@Layer("Mobile")
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Feature("Local")
-@Tag("Local")
+@Tags({@Tag("Local"),@Tag("UI")})
 public class WikipediaTests extends LocalTestBase {
 
   @Test
