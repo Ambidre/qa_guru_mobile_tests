@@ -10,10 +10,7 @@ import static io.qameta.allure.Allure.step;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
-import io.qameta.allure.Owner;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -27,6 +24,7 @@ public class WikipediaTests extends SelenoidTestBase {
     @Test
     @DisplayName("Selenoid. Проверка результата поиска по значению 'BrowserStack'")
     @Microservice("Search")
+    @Feature("Поиск")
     @Severity(SeverityLevel.CRITICAL)
     void searchBrowserStackInWikipedia() {
         back();

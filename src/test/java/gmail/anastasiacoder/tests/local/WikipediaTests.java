@@ -3,10 +3,7 @@ package gmail.anastasiacoder.tests.local;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
-import io.qameta.allure.Owner;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -18,12 +15,14 @@ import static com.codeborne.selenide.Selenide.back;
 @Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
+@Feature("Local")
 @Tag("Local")
 public class WikipediaTests extends LocalTestBase {
 
   @Test
   @DisplayName("Проверка страниц getting started")
   @Microservice("Getting started")
+  @Feature("Начало работы")
   @Severity(SeverityLevel.CRITICAL)
   void gettingStartedWikipediaTest() {
     back();
