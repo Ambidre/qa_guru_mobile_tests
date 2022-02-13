@@ -1,5 +1,6 @@
 package gmail.anastasiacoder.tests.local;
 
+import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
 import io.qameta.allure.Owner;
@@ -14,6 +15,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
+@Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Tag("Local")

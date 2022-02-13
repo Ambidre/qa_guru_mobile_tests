@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
+import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
 import io.qameta.allure.Owner;
@@ -16,6 +17,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Tag("Real")

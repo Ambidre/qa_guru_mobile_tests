@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 import static io.qameta.allure.Allure.step;
 
+import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
 import io.qameta.allure.Owner;
@@ -17,6 +18,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Layer("UI")
 @Owner("AnotherQA")
 @Story("Wikipedia")
 @Tag("Browserstack")
