@@ -1,7 +1,10 @@
 package gmail.anastasiacoder.tests.local;
 
+import annotations.Microservice;
 import io.appium.java_client.MobileBy;
 import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -18,6 +21,8 @@ public class WikipediaTests extends LocalTestBase {
 
   @Test
   @DisplayName("Проверка страниц getting started")
+  @Microservice("Getting started")
+  @Severity(SeverityLevel.CRITICAL)
   void gettingStartedWikipediaTest() {
     back();
     $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
