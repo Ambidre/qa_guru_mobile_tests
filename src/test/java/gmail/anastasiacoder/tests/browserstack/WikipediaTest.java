@@ -7,6 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 import static io.qameta.allure.Allure.step;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
@@ -20,6 +22,7 @@ import org.junit.jupiter.api.Test;
 @Owner("AnotherQA")
 @Story("Wikipedia")
 @Feature("Browserstack")
+@JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Browserstack"),@Tag("UI")})
 public class WikipediaTest extends BrowserstackTestBase {
 

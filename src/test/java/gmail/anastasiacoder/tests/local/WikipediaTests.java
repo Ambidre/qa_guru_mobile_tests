@@ -1,5 +1,7 @@
 package gmail.anastasiacoder.tests.local;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
@@ -17,6 +19,7 @@ import static com.codeborne.selenide.Selenide.back;
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Feature("Local")
+@JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Local"),@Tag("UI")})
 public class WikipediaTests extends LocalTestBase {
 

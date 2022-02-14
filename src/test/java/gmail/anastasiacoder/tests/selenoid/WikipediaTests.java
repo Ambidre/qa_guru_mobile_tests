@@ -7,6 +7,8 @@ import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.back;
 import static io.qameta.allure.Allure.step;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
@@ -19,6 +21,7 @@ import org.junit.jupiter.api.Test;
 @Layer("UI")
 @Owner("Ambidre")
 @Story("Wikipedia")
+@JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Selenoid"),@Tag("UI")})
 public class WikipediaTests extends SelenoidTestBase {
 

@@ -6,6 +6,8 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.back;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import io.appium.java_client.MobileBy;
@@ -19,6 +21,7 @@ import org.junit.jupiter.api.Test;
 @Owner("Ambidre")
 @Story("Wikipedia")
 @Feature("Real")
+@JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Real"),@Tag("UI")})
 public class WikipediaTests extends RealTestBase {
 
