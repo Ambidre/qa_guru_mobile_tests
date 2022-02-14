@@ -98,7 +98,7 @@ gradle clean test
 
 ![Allure TestOps](images/screens/allure_testcases.png)
 
-## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция тестов c таск-трекер системой [Jira](https://jira.autotests.cloud/browse/HOMEWORK-)
+## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция тестов c таск-трекер системой [Jira](https://jira.autotests.cloud/browse/HOMEWORK-336)
 
 > Интеграция с <code>Jira</code> позволяет добавлять в задачи тест-кейсы, запуски и их результаты.
 
