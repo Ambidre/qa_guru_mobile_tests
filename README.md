@@ -56,10 +56,10 @@ gradle clean test
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Анализ результатов запусков в Jenkins через Allure Reports
 
-> [**Allure-framework**](https://habr.com/ru/company/sberbank/blog/358836/) используется в качестве инструмента для построения отчетов о прогоне автотестов.
+> <code>Allure-framework</code>используется в качестве инструмента для построения отчетов о прогоне автотестов.
 > Он позволяет получить информацию о ходе выполнения тестов, а также прикрепить скриншоты, логи и видео к формируемому отчету.
 > Имеется возможность указать различные теги, приоритеты и прочую сопутствующую информацию для тестов.
-> 
+
 ### Главная страница Allure-отчета
 
 ![Jenkins_Allure_Reports](images/screens/allure_dashbord.png)
@@ -72,7 +72,7 @@ gradle clean test
 
 ![Jenkins_Allure_Reports](images/screens/allure_detailes.png)
 
-## <img width="4%" title="Allure TestOps" src="images/logo/Allure_TestOps.svg"> Интеграция тестов c тест-менеджмент системой [Allure TestOps](https://allure.autotests.cloud/jobrun/9938)
+## <img width="4%" title="Allure TestOps" src="images/logo/Allure_TestOps.svg"> Интеграция тестов c тест-менеджмент системой [Allure TestOps](https://allure.autotests.cloud/project/1017/dashboards)
 
 > <code>Allure TestOps</code> используется для хранения всех авто и ручных тестов, запусков и их результатов, а также статистики и отчетов.
 
