@@ -1,4 +1,4 @@
-package annotations;
+package gmail.anastasiacoder.annotations;
 
 import java.lang.annotation.*;
 
