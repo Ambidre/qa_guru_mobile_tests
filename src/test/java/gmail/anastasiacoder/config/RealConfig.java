@@ -6,9 +6,7 @@ import org.aeonbits.owner.Config;
 
 public interface RealConfig extends Config {
 
-    @Key("deviceName")
     String deviceName();
 
-    @Key("appPath")
     String appPath();
 }
