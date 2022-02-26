@@ -23,7 +23,7 @@ import static io.qameta.allure.Allure.step;
 @Feature("Browserstack")
 @JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Browserstack"),@Tag("UI")})
-public class WikipediaTests extends TestBase{
+public class WikipediaTest extends TestBase{
 
     @Test
     @DisplayName("Проверка результата поиска по значению 'BrowserStack'")
