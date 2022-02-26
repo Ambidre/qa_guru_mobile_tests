@@ -20,7 +20,6 @@ import static io.qameta.allure.Allure.step;
 
 @Layer("UI")
 @Story("Wikipedia")
-@Feature("Browserstack")
 @JiraIssues({@JiraIssue("HOMEWORK-336")})
 @Tags({@Tag("Browserstack"),@Tag("UI")})
 public class WikipediaTest extends TestBase{
