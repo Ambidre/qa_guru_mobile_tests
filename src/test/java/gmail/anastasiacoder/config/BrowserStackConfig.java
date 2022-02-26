@@ -4,13 +4,15 @@ import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({"system:properties",
-        "classpath:browserstack.properties"})
+        "classpath:mobile.properties"})
 public interface BrowserStackConfig extends Config {
 
-    String app();
-
+    @Config.Key("browserstack.user")
     String user();
 
+    @Config.Key("browserstack.key")
     String key();
 
+    @Config.Key("browserstack.app")
+    String app();
 }
